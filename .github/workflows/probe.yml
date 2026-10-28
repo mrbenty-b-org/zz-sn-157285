@@ -1,14 +1,8 @@
 name: probe
 on:
   workflow_dispatch:
-    inputs:
-      n:
-        type: string
-        default: zz-hc1-default
 jobs:
   copilot-setup-steps:
     runs-on: ubuntu-latest
     snapshot:
-      image-name: ${{ inputs.n }}
-    steps:
-      - run: echo ok
+      image-name: zz-hc1-157285-s9
