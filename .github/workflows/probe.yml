@@ -4,6 +4,6 @@ on:
 jobs:
   copilot-setup-steps:
     runs-on:
-      group: "x"
+      labels: "ubuntu-latest"
     steps:
       - run: echo ok
