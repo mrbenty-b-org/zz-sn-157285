@@ -4,6 +4,6 @@ on:
 jobs:
   copilot-setup-steps:
     runs-on:
-      snapshot-name: "zz-hc1-x"
+      from-snapshot: "zz-hc1-x"
     steps:
       - run: echo ok
