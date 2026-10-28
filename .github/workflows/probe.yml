@@ -5,6 +5,7 @@ jobs:
   copilot-setup-steps:
     runs-on: ubuntu-latest
     snapshot:
-      image-name: zz-hc1-157285-s1
+      image-name: zz-hc1-157285-s2
+      version: "1"
     steps:
       - run: echo ok
