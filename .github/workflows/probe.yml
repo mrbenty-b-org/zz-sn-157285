@@ -4,6 +4,6 @@ on:
 jobs:
   copilot-setup-steps:
     runs-on:
-      zzbogus-not-a-key: "x"
+      group: "x"
     steps:
       - run: echo ok
