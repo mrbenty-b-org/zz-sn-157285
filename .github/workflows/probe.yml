@@ -4,6 +4,6 @@ on:
 jobs:
   copilot-setup-steps:
     runs-on:
-      labels: "ubuntu-latest"
+      image: "zz-hc1-x"
     steps:
       - run: echo ok
