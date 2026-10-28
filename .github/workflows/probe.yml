@@ -3,7 +3,8 @@ on:
   workflow_dispatch:
 jobs:
   copilot-setup-steps:
-    runs-on:
-      from-snapshot: "zz-hc1-x"
+    runs-on: ubuntu-latest
+    container:
+      snapshot: zz-hc1-x
     steps:
       - run: echo ok
