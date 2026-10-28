@@ -4,6 +4,6 @@ on:
 jobs:
   copilot-setup-steps:
     runs-on:
-      image: "zz-hc1-x"
+      image-name: "zz-hc1-x"
     steps:
       - run: echo ok
