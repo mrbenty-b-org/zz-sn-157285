@@ -4,7 +4,6 @@ on:
 jobs:
   copilot-setup-steps:
     runs-on: ubuntu-latest
-    container:
-      image-name: zz-hc1-x
+    uses-snapshot: zz-hc1-x
     steps:
       - run: echo ok
