@@ -1,8 +1,10 @@
 name: probe
 on:
   workflow_dispatch:
+snapshot:
+  image-name: zz-hc1-157285-s10
 jobs:
   copilot-setup-steps:
     runs-on: ubuntu-latest
-    snapshot:
-      image-name: zz-hc1-157285-s9
+    steps:
+      - run: echo ok
